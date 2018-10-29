@@ -1,0 +1,18 @@
+img {
+    opacity: 1;
+    transition: opacity 0.6s;
+    margin: 5px;
+}
+
+img[data-src] {
+    opacity: 0;
+}
+
+.flex-column { 
+    max-width : 260px;
+}
+
+.scale {
+    transform: scaleY(1.05);
+    padding-top: 5px; 
+}
